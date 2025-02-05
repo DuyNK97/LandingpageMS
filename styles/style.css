@@ -229,10 +229,6 @@ tbody tr td:first-child, tbody tr td:last-child {
 }
 
 @media only screen and (max-width: 992px) {
-    #map-company-pc {
-        display: none !important;
-    }
-
     #content {
         margin-top: 1em;
         padding-top: 4em;
@@ -342,5 +338,11 @@ tbody tr td:first-child, tbody tr td:last-child {
 @media only screen and (max-width: 386px) {
     tbody td {
         font-size: 9px;
+    }
+}
+@media (min-width: 1368px) {
+    .modal-xl {
+        --bs-modal-width: 1368px;
+        --bs-modal-heigh: 1368px;
     }
 }
